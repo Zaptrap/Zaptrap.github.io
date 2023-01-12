@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto:ital,wght@1,500&display=swap');
+
+/*
+the % basic fall-back font families are:
+serif, sans-serif,monospace, cursive, fantasy
+(this is a comment btw)
+*/ 
+
+#p1 {
+    color: red;
+    font-family: 'Moon Dance', cursive;
+    font-size: 20px;
+}
+
+#p2 {
+    Color: rgb(22, 182, 22);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+#p3 {
+    color: rgb(55, 90, 255, .5)
+}
+
+#p4 {
+    font-weight:normal
+}
+
+#p5 {
+    font-style: oblique 84deg;
+    text-decoration: underline;
+
+}
+
+#p6 {
+    text-decoration: overline;
+}

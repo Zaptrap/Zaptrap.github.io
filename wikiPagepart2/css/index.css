@@ -1,0 +1,16 @@
+#seriesName {
+    font-style:italic
+}
+
+.wiki {
+    font-weight:100
+}
+
+#uses {
+    font-weight: 100;
+}
+
+#sidebar {
+    float:right;
+    margin: 10px
+}

@@ -1,0 +1,20 @@
+img {
+    width: 200px;
+    margin: 24px
+}
+
+p {
+    background-color: green
+}
+
+#floatLeft {
+     float:left;
+}
+
+#floatRight {
+     float:right; 
+}
+
+#clear {
+    clear: both;
+}
