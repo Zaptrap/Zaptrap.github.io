@@ -1,3 +1,8 @@
+p {
+    font-family: sans-serif;
+    font-size: small;
+}
+
 #seriesName {
     font-style:italic
 }
@@ -12,5 +17,17 @@
 
 #sidebar {
     float:right;
-    margin: 10px
+    margin: 10px;
+    padding: 10px;
+    border: solid ;
+    background-color: rgb(206, 203, 203);
+    text-align: center;
+    
+}
+
+.contentBar {
+    font-weight: 600;
+    font-size: medium;
+    font-family:sans-serif;
+   
 }
