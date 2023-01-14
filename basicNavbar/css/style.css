@@ -21,3 +21,8 @@ nav {
 main {
     height: 1500px;
 }
+
+li.active a {
+font-size: 200%;
+
+}
