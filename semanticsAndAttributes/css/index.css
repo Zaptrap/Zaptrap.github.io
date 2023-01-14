@@ -1,0 +1,65 @@
+header,
+footer {
+    background-color:salmon;
+    color:white;
+    border: 2px solid #888888;
+    padding: 50px 36px 36px 36px
+}
+
+header h1 {
+    text-align: center;
+    margin: 60px 0px;
+    font-size: 48px
+}
+
+main {
+    Padding:48px;
+    background-color: aliceblue;
+}
+
+main h3 {
+    color: salmon;
+}
+
+.card {
+    border: 1px solid grey;
+    padding: 48px;
+    margin-bottom: 48px;
+    box-shadow: 4px 4px 8px grey;
+    /* x-offset y-offset blur-radius color */
+}
+
+body {
+    font-family: sans-serif;
+    
+}
+
+header a {
+    color: white;
+    margin: 6px;
+}
+
+figure {
+    float: left;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+figure img {
+    width: 200px;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    padding:48px;
+}
+
+footer div {
+    margin: 12px;
+}
+
