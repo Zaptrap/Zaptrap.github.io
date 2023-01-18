@@ -25,6 +25,11 @@ p {
     
 }
 
+#sidebar span{
+    justify-content: flex-start;
+    
+}
+
 .contentBar {
     font-weight: 600;
     font-size: medium;
