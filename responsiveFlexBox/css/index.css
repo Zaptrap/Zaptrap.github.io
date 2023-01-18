@@ -5,6 +5,11 @@ ul {
     justify-content:flex-end;
 }
 
+.hr {
+    border-bottom: 15px dashed;
+    color: black;
+}
+
 li {
     margin: 12px;
 }
@@ -12,7 +17,7 @@ li {
 li a {
     text-decoration: none;
     font-weight: bold;
-    color: darkmagenta;
+    color: darkgreen;
 }
 
 #home {
@@ -22,7 +27,7 @@ li a {
 
 @media screen and (max-width: 768px) {
     body {
-        background-color: lightslategray
+        background-color: goldenrod
     }
 
     ul {
