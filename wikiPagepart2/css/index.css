@@ -25,10 +25,12 @@ p {
     
 }
 
-#sidebar span{
+.sideBySide span:first-child{
+    display: flex;
     justify-content: flex-start;
-    
 }
+
+
 
 .contentBar {
     font-weight: 600;
