@@ -11,6 +11,12 @@ ul {
     padding:0;
 }
 
+/*pseudo-class: extesion created by broswer when implemented*/
+a:hover {
+    text-decoration: none;
+    background-color: darkgreen;
+}
+
 nav {
     background-color: aquamarine;
     text-align: center;
@@ -23,6 +29,6 @@ main {
 }
 
 li.active a {
-font-size: 200%;
-
+    font-size: 200%;
+    color: navy;
 }
