@@ -28,6 +28,10 @@ nav > ul {
     padding: 0px;
 }
 
+nav {
+    background-color:yellow;
+}
+
 nav > ul > li {
     padding: 12px;
     background-color: yellow;
