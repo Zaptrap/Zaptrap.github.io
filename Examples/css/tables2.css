@@ -1,0 +1,25 @@
+table {
+    border-collapse:collapse;
+}
+
+th {
+    padding-right: 24px;
+    padding-bottom: 12px;
+    background-color: aqua;
+}
+
+td {
+    padding: 4px 0px;
+}
+
+tr {
+    border-bottom: black solid;
+}
+
+tr:nth-child(even)  {
+    background-color: #F0F0F0;
+}
+
+tr:hover {
+    background-color: gold;
+}

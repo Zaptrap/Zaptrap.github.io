@@ -1,0 +1,25 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+
+}
+
+thead tr {
+    background-color: pink;
+}
+
+tbody tr:first-child {
+    background-color: grey;
+}
+
+#specialCell {
+    background-color: skyblue;
+}
+
+colgroup col:first-child {
+    background-color: green;
+    /* use span to make a grid span to multiple columns (span="")*/
+}
