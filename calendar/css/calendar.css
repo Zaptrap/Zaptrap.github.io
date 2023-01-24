@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+}
+
+thead > tr {
+    background-color: aqua;
+    border:2px solid;
+}
+
+#Month {
+    align-items:o;
+}
+
+tbody {
+    border: 2px solid;
+}
+
+tbody td {
+   padding: 10px;
+   border: .05px solid;
+}
