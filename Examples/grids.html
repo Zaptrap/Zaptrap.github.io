@@ -8,29 +8,41 @@
       }
       .block1 {
         background-color: red;
+        grid-area: footer;
       }
       .block2 {
         background-color: blue;
+        grid-area: content2;
       }
       .block3 {
         background-color: green;
       }
       .block4 {
         background-color: orange;
+        grid-area: sidebar;
       }
       .block5 {
         background-color: yellow;
       }
       .block6 {
         background-color: purple;
+        grid-area: content1;
       }
       .block7 {
         background-color: black;
         color: white;
+        grid-area: navbar;
       }
 
       .myGrid {
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "navbar navbar navbar" 
+            "sidebar content1 content1"
+            "sidebar content2 content3"
+            "sidebar content2 content4"
+            "footer footer footer";
       }
 
       img {
