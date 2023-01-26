@@ -37,7 +37,9 @@ header img {
     border-bottom: 2px solid #dddd;
 }
 
-input[type=text] {
+input[type=text],
+input[type=date],
+select {
     border: 2px solid #dddddd;
     border-radius: 4px;
     padding: 8px ;
