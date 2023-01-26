@@ -15,12 +15,23 @@
             </header>
             <div id="forumContainer">
                 <form>
+                    <select name="questionType">
+                        <option value="" disabled selected>--Select what you would like assistance with--</option>
+                        <option value="commission">Would you like to request a commission?</option>
+                        <option value="fileTaxes">Need help filing you taxes</option>
+                        <option value="carInsurance">Would you like to save more on car insurance? </option>
+                        <option value="deals">Need help searching for shopping deals?</option>
+                        <option value="VPN">want to stay safe online</option>
+                    </select>
+                    </select>
                     <label>Name</label>
                     <input type="text" name="name">
                     <label>Email</label>
                     <input type="text" name="email">
                     <label>Message</label>
-                    <textarea>Type here...</textarea>
+                    <textarea 
+                        name="message"
+                        placeholder="type here..."></textarea>
                     <input type="submit" name="send" value="send">
                 </form>
             </div>

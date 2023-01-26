@@ -30,6 +30,7 @@ textarea::placeholder {
     background-color: white;
     border: solid 2px grey;
     padding: 32px;
+    border-radius: 20px;
 }
 
 form label {
@@ -39,7 +40,8 @@ form label {
 }
 
 form input[type=text],
-form textarea {
+form textarea,
+form select {
     padding: 12px;
     width: 100%;
     margin-bottom: 16px;
@@ -50,4 +52,8 @@ form input[type=submit] {
     padding: 16px 24px;
     border: 0;
     color: white
+}
+
+option :disabled {
+    color: lightgray;
 }
