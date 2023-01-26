@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dedede;
+    font-family: sans-serif;
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+        ". header ."
+        ". content.";
+}
+
+header {
+    grid-area: header;
+    padding: 48px;
+    text-align: center;
+}
+
+textarea::placeholder {
+    color: blue;
+}
+
+#forumContainer {
+    grid-area: content;
+    background-color: white;
+    border: solid 2px grey;
+    padding: 32px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0px
+}
+
+form input[type=text],
+form textarea {
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+form input[type=submit] {
+    background-color: blue;
+    padding: 16px 24px;
+    border: 0;
+    color: white
+}
