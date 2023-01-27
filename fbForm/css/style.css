@@ -40,6 +40,8 @@ header img {
 /* this styles the boxes for these inputs*/
 input[type=text],
 input[type=date],
+input[type=email]
+input[type=password]
 select,
 #genderInputs > div,
 input[type=submit] {
@@ -97,6 +99,7 @@ input[type=submit] {
 
 #genderRadioButtons {
     text-align: left;
+    margin: 12px;
 }
 
 #genderInputs {
@@ -109,7 +112,7 @@ input[type=submit] {
     justify-content: space-between;
 }
 
-#formFields {
+#formFields p {
     font-size: 12px;
     margin: 16px;
     text-align: left;
