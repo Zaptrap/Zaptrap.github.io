@@ -40,7 +40,7 @@ header img {
 /* this styles the boxes for these inputs*/
 input[type=text],
 input[type=date],
-input[type=email]
+input[type=email],
 input[type=password]
 select,
 #genderInputs > div,
@@ -136,4 +136,17 @@ a {
 #login {
     display: block;
     margin: 23px
+}
+
+input:invalid,
+#phoneOrEmailInput:invalid{
+    border-color: red;
+    background-color: lightpink;
+    box-shadow: 0px 0px 8px red;
+}
+
+input:not([type=submit]):valid, 
+#phoneOrEmailInput:valid {
+    border-color: lightgreen;
+    box-shadow: 0px 0px 8px lightgreen;
 }

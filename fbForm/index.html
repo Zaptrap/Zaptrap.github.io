@@ -21,21 +21,27 @@
                     <form>
                         <div id="textInputsContainer">
                             <input id="firstNameInput"
-                            type="text"
-                            name="firstName"
-                            placeholder="First Name">
+                                type="text"
+                                name="firstName"
+                                placeholder="First Name"
+                                min-length="2"
+                                max-length="30"
+                                required>
                             <input id="lastNameInput"
-                            type="text"
-                            name="lastName"
-                            placeholder="Last Name">
+                                type="text"
+                                name="lastName"
+                                placeholder="Last Name"
+                                optional>
                             <input id="phoneOrEmailInput"
-                            type="text"
-                            name="phoneOrEmail"
-                            placeholder="Mobile Phone or Email">
+                                type="email"
+                                name="Email"
+                                placeholder="Mobile Phone or Email">
                             <input id="passwordInput"
-                            type="text"
-                            name="password"
-                            placeholder="New password">
+                                type="text"
+                                name="password"
+                                placeholder="New password"
+                                min-length="8"
+                                max-length="20">
                         </div>
                         <div id="titleBdayPublicInputs">
                             <div>
@@ -53,7 +59,7 @@
                             </div>
                             <div>
                                 <label>Birthday</label>
-                                <input type="date" name="birthday">
+                                <input type="date" name="birthday" required>
                             </div>
                             <div>
                                 <label>Make Public</label>
