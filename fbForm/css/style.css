@@ -124,3 +124,13 @@ input[type=submit] {
     border-radius: 6px;
     min-width: 175px;
 }
+
+a {
+    color: #0d77ff;
+    text-decoration: none;
+}
+
+#login {
+    display: block;
+    margin: 24px
+}
