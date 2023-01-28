@@ -12,7 +12,7 @@ body {
     grid-template-columns: 1fr 600px 1fr;
     grid-template-areas:
         ". header ."
-        ". content.";
+        ". content .";
 }
 
 header {
@@ -33,13 +33,17 @@ textarea::placeholder {
     border-radius: 20px;
 }
 
+.red {
+    color: red;
+}
+
 form label {
     display: block;
     font-weight: bold;
     margin: 8px 0px
 }
 
-form input[type=text],
+form input,
 form textarea,
 form select {
     padding: 12px;
@@ -58,11 +62,19 @@ option :disabled {
     color: lightgray;
 }
 
+
+
+input:not(focus):not(placeholder-shown):valid {
+    border-color: green;
+    box-shadow: 0px 0px 16px lightgreen;
+}
+
 /*input:invalid*/
-input:not(focus):not(placeholder-shown):invalid {
-    border-color: 3px solid red;
+input:not(focus):not(placeholder-shown):invalid, 
+input[name=email]:invalid {
+    border-color: red;
     box-shadow: 0px 0px 16px red;
-    animation: invalidwiggle .5s infinite;
+    animation: invalidwiggle .45s 3;
 }
 
 @keyframes invalidwiggle {
@@ -81,3 +93,19 @@ input:not(focus):not(placeholder-shown):invalid {
         background-color: yellow;
     }
 }
+
+@media screen and (max-width: 600px) {
+   /*
+    body {
+    background-color: aqua;
+   }
+   */
+
+   #gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "content";
+   }
+ }

@@ -17,24 +17,29 @@
                 <form 
                 action="https://getform.io/f/eed52f9e-0cb2-4a80-a26e-bbc83741822d"
                 method="POST">
-                    <select name="questionType">
-                        <option value="" disabled selected>--Select what you would like assistance with--</option>
-                        <option value="commission">Would you like to request a commission?</option>
-                        <option value="fileTaxes">Need help filing you taxes</option>
-                        <option value="carInsurance">Would you like to save more on car insurance? </option>
-                        <option value="deals">Need help searching for shopping deals?</option>
-                        <option value="VPN">want to stay safe online</option>
-                    </select>
-                    </select>
-                    <label>Name</label>
-                    <input type="text" name="name" minlength="2" maxlength="50">
-                    <label>Email</label>
-                    <input type="text" name="email">
-                    <label>Message</label>
-                    <textarea 
-                        name="message"
-                        placeholder="type here..."></textarea>
-                    <input type="submit" name="send" value="send">
+                    <fieldset>
+                        <legend> Text Field</legend>
+                        <select name="questionType">
+                            <option value="" disabled selected>--Select what you would like assistance with--</option>
+                            <option value="commission">Would you like to request a commission?</option>
+                            <option value="fileTaxes">Need help filing you taxes</option>
+                            <option value="carInsurance">Would you like to save more on car insurance? </option>
+                            <option value="deals">Need help searching for shopping deals?</option>
+                            <option value="VPN">want to stay safe online</option>
+                        </select>
+                        </select>
+                        <label>Name<span class="red">*</span></label>
+                        <input type="text" name="name" placeholder="Last Name, First Name" minlength="2" maxlength="50">
+                        <label>Email<span class="red">*</span></label>
+                        <input type="email" name="email" placeholder="example@email">
+                        <labe>Response Requested by</labe>
+                        <input type="date" name="request"> 
+                        <label>Message</label>
+                        <textarea 
+                            name="message"
+                            placeholder="type here..."></textarea>
+                        <input type="submit" name="send" value="send">
+                    </fieldset>
                 </form>
             </div>
         </section>
