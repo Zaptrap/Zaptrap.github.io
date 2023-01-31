@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+#hero1 {
+    background-image: url("../assets/images/modern-gold-background-free-vector.jpg");
+    background-size: cover;
+    background-position: left center; /*you can also use percentages to change off-sets*/
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    transition: filter .5s;
+    /*display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;*/
+}
+    
+#hero1:hover {
+    filter: blur(2px);
+}
+
+#hero1 h1 {
+    /*position: absolute;
+    top: 60px;
+    left: 60px;*/
+    color:white;
+    font-family: cursive;
+    font-size: 69px;
+}
+
+p {
+    font-size: 30px;
+    margin: 48px;
+}
+
+#hero2 {
+    height: 100vh;
+    background-image: url("../assets/images/ocean-3605547__340.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero2 h2, 
+#hero3 h2 {
+    color: white;
+    font-family: cursive;
+    font-size: 60px
+}
+
+#hero2 h3, 
+#hero3 h3 {
+    color: white;
+    font-family: cursive;
+    font-size: 48px
+}
+
+#hero3 {
+    background-image: url("../assets/images/pexels-photo-531880.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+    text-align: center;
+}
+
+#hero3 h2 {
+    padding-top: 60px;
+}
+
+#hero3 h3 {
+    padding-top: 60px;
+}
