@@ -177,6 +177,10 @@ nav h2 {
   transition: transform 0.25s;
 }
 
+.card img {    
+
+}
+
 #hero a:hover,
 .card a:hover {
   transform: scale(1.05);
