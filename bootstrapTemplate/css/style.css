@@ -183,6 +183,14 @@ nav h2 {
   margin: 0px auto;
 }
 
+#Doom, #DukeNukem, #SeriousSam,
+#Rambo, #Conan, #Fullmetal {
+  height: 500px;
+  width: 500px;
+  size: 50%;
+  margin: 0px auto;
+}
+
 #hero a:hover,
 .card a:hover {
   transform: scale(1.05);
