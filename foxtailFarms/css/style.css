@@ -185,11 +185,6 @@ nav h2 {
   transition: transform 0.25s;
 }
 
-#spy {
-  height: 165px;
-  width: 125px;
-  margin: 0px auto;
-}
 
 #Doom, #DukeNukem, #SeriousSam {
   height: 500px;
