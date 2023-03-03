@@ -27,6 +27,15 @@
   transition: opacity 0.25s, transform 0.25s;
 }
 
+#Gorillaz, #ChildishGambino, 
+#GreenDay, #PanicAtTheDisco {
+  height: 200px;
+  margin: 12px;
+  flex: 1 0 auto;
+  object-fit: cover;
+  transition: opacity 0.25s, transform 0.25s;
+}
+
 /*
   On hover, make the image completely opaque, change the cursor to a pointer,
   and increase the size of the image slightly.

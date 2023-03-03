@@ -17,6 +17,18 @@ function openLightbox() {
 let coffeeImage = document.getElementById("coffeeImage");
 coffeeImage.onclick = openLightbox; 
 
+let Gorillaz = document.getElementById("Gorillaz");
+Gorillaz.onclick = openLightbox; 
+
+let ChildishGambino = document.getElementById("ChildishGambino");
+ChildishGambino.onclick = openLightbox; 
+
+let GreenDay = document.getElementById("GreenDay");
+GreenDay.onclick = openLightbox; 
+
+let PanicAtTheDisco = document.getElementById("PanicAtTheDisco");
+PanicAtTheDisco.onclick = openLightbox; 
+
 function closeLightbox() {
     lighboxContainer.classList.remove("display")
     lightbox.src= "";
