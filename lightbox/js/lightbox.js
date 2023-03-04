@@ -43,8 +43,8 @@ for (let i =0; i < galleryImages.length; i++) {
     galleryImage.onclick = openLightbox;
 }
 
-let closers = document.getElementsByClassName("closers");
-for (let i = 0; i < closers; i++) {
+let closers = document.getElementsByClassName("closer");
+for (let i = 0; i < galleryImages.length; i++) {
     let closer = closers[i];
     closers.onclick = closeLightbox;
 }
