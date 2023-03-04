@@ -1,4 +1,4 @@
-let lighboxContainer =
+let lightboxContainer =
     document.getElementById("lightboxContainer");
 
 let lightboxBackground =
@@ -10,7 +10,7 @@ let lightboxCloser =
     document.getElementById("lightboxCloser");
 
 function openLightbox() {
-    lightboxContainer.classList.add("display");
+    lighboxContainer.classList.add("display");
     lightbox.src = this.src;
 }
 
@@ -30,7 +30,7 @@ function openLightbox() {
 // PanicAtTheDisco.onclick = openLightbox; 
 
 function closeLightbox() {
-    lighboxContainer.classList.remove("display")
+    lightboxContainer.classList.remove("display")
     lightbox.src= "";
 }
 
@@ -46,5 +46,5 @@ for (let i =0; i < galleryImages.length; i++) {
 let closers = document.getElementsByClassName("closer");
 for (let i = 0; i < closers.length; i++) {
     let closer = closers[i];
-    closers.onclick = closeLightbox;
+    closer.onclick = closeLightbox;
 }
