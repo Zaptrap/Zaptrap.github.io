@@ -10,7 +10,7 @@ let lightboxCloser =
     document.getElementById("lightboxCloser");
 
 function openLightbox() {
-    lighboxContainer.classList.add("display");
+    lightboxContainer.classList.add("display");
     lightbox.src = this.src;
 }
 
