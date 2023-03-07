@@ -46,6 +46,20 @@
   transform: scale(1.05);
 }
 
+#hero {
+  background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-07/210721-netflix-al-1435-e2a12e.jpg);
+  background-size: cover;
+  height: 800px;
+}
+
+#title {
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /*
   When the screen becomes very narrow, reconfigure images to be sized
   based on width rather than height.
