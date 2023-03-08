@@ -4,13 +4,30 @@
     <title>Lightbox Gallery</title>
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/netflix.css">
   </head>
   <body>
-    <div id="banner"></div>
+    <div id="banner">
+      <div id="new"> NEW! </div>
+      <div> Plans start at <span id="price"> $6.99</span> </div>
+      <div>
+        <a href="#"> Learn More!</a>
+      </div>
+    </div>
     <div id="hero">
-      <p id="title">Unlimited movies, TV shows, and more.</p>
-      <div id="navBar"></div>
+      <div id="navBar">
+        <img src="images/Logonetflix.png">
+        <button class="clearButton"> English </button>
+        <button class="redButton"> Sign In </button>
+      </div>
       <div id="heroContent">
+        <h1 id="title">Unlimited movies, TV shows, and more.</h1>
+        <h3> Watch anywhere. Cancel Anytime</h3>
+        <p> Ready to watch? Enter your email</p>
+        <form>
+          <input type="email" name="emailAddress" placeholder="Email address">
+          <input type="submit" class="redButton" value="Get Started">
+        </form>
       </div>
     </div>
   
