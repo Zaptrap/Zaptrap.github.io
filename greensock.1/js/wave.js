@@ -6,7 +6,7 @@ gsap.to(".box" , 1, {
     ease: "power1.inOut",
     delay: 1, 
     stagger:{
-        ammount: 1.5,
+        amount: 1.5,
         grid: "auto",
         from: "center",
     },
