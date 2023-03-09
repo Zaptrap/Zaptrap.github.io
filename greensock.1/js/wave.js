@@ -1,5 +1,5 @@
 gsap.to(".box" , 1, {
-    scale: 1,
+    scale: .1,
     y: 60, 
     yoyo: true,
     repeat: -1,
