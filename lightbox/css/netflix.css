@@ -90,3 +90,17 @@ body {
     width: 500px;
     margin-bottom: 16px;
 }
+
+@media screen and (max-width: 480px) {
+    #heroContent h1 {
+    font-size: 48px;
+    font-weight: normal;}
+    
+    #banner {
+        flex-direction: column;
+    }
+
+    #heroContent input[type="email"] {
+        width: 100%;
+    }
+}
