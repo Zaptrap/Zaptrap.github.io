@@ -1,0 +1,64 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#navBar {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: black;
+
+}
+
+#navBar #logo {
+    margin-right:auto;
+    width: 85px;
+}
+
+#blueButtonSignIn {
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+    justify-content: flex-end;
+}
+
+#blackButton {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    justify-content: flex-end;
+}
+
+#hero {
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    box-shadow: inset 0px 0px 200px 75px black;
+}
+
+#contentShowcase {
+    background-color: black;
+    min-height: 500px;
+}
+
+.entertainment {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+}
+
+#contentShowcase button {
+    background-color: black;
+    border: none;
+}
+
+#trend, #new, #soon {
+    color: white;
+}
+
